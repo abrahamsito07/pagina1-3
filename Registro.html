@@ -1,0 +1,60 @@
+<html>
+<nav>
+    <center>
+        <a href="index.html">Inicio </a> 
+        <a href="Nosotros.html">Nosotros </a> 
+         <a href="Servicios.html"> Servicios </a> 
+         <a href="Registro.html"> Registro </a>  
+         <a href="contactos.html"> contacto </a>
+    </center>
+</nav>
+<title>Registros</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<form class="FormDatos" action="resultado.html" method="post" id="Formulario">
+
+
+<form method="get" action="resultado.html" class="formRegis">
+<center><h1>Pagina registro</h1></center><br><br>
+    <!--Input para nombre-->
+    <div class="nombre">
+        <label for="nombre">Nombre:</label>
+        <input class="input" type="text" name="Nom" id="nombre">
+    </div> <br>
+
+    <!--Input para Apellido-->
+    <div class="Apellido">
+        <label for="Apellido">Apellido:</label>
+        <input class="input" type="text" name="Ape" id="Apellido">
+    </div><br>
+
+    <!--Input para genero-->
+    Genero:
+    <label><input class="input" type="radio" name="Genero" value="Masculino" />
+        Masculino</label>
+    <label><input class="input" type="radio" name="Genero" value="Femenino" />
+        Femenino</label><br>
+    </div><br>
+
+    <!--Input para Correo-->
+    <div class="Correo">
+        <label for="Correo">Correo:</label>
+        <input class="input" type="email" name="Correo" id="Correo">
+    </div><br>
+
+    <!--Input para fecha nacimiento-->
+    <div class="fecha">
+        <label for="Fecha">Fecha nacimiento</label>
+        <input class="input" type="date" name="F.nacimiento" id="Fecha">
+    </div><br>
+
+    <!--Input para Direccion-->
+    <div class="Direccion">
+        <label for="Direccion">Direccion:</label><br>
+        <input class="input" type="text" name="Direc" id="Direccion">
+    </div><br>
+
+    <button type="submit">Enviar</button>
+</form>
+</form>
+</html>
